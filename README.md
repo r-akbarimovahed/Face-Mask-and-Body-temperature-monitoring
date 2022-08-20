@@ -8,4 +8,9 @@ AMG8833 Non-contact tempreture sensor <br />
 Raspberry Pi Camera <br /> 
 Buzzer <br /> 
 HC-SR04 <br /> 
+# Instance Result 
+![alt text](https://drive.google.com/file/d/14JCR6LgY9fjhJG7esom6yjuEJNthnnwo/view?usp=sharing)
+
+
+
 
