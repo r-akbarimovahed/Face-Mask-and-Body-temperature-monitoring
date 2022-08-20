@@ -43,8 +43,8 @@ GPIO.setup(GPIO_ECHO, GPIO.IN)
 i2c = busio.I2C(board.SCL, board.SDA)
 amg = adafruit_amg88xx.AMG88XX(i2c)
 detector = dlib.get_frontal_face_detector() 
-Img_Img_Acq = cv2.imread('Slide1.png',cv2.IMREAD_UNCHANGED)
-Img_Temp_Acq = cv2.imread('Slide2.png',cv2.IMREAD_UNCHANGED)
+Img_Img_Acq = cv2.imread(os.path.join(os.getcwd(),'Slide1.png') ,cv2.IMREAD_UNCHANGED)
+Img_Temp_Acq = cv2.imread(os.path.join(os.getcwd(),'Slide2.png'), cv2.IMREAD_UNCHANGED)
 
 fnt = ImageFont.truetype('Lato-Medium.ttf',35)
 
@@ -210,11 +210,10 @@ def Temp_Captioning(fnt, Temp, frame, label):
     
 FILE_PATH=os.getcwd() + "/"
 # face_path=FILE_PATH+r"face_detector"
- 
-# load the face mask detector model from disk
 
+# load the face mask detector model from disk
 print("[INFO] loading face mask detector model...")
-maskNet = load_model('mask_detector.model')
+maskNet = load_model(os.path.join(os.getcwd(),'mask_detector.model'))
 # 
 # # initialize the video stream and allow the camera sensor to warm up
 # print("[INFO] starting video stream...")
@@ -260,11 +259,3 @@ while(True):
             IMSHOW(5*1000,frame,screen,width, height,True)
         except:     
             IMSHOW(1*1000,frame,screen,width, height,True)
-            
-            
-        
-
-
-
-
-
