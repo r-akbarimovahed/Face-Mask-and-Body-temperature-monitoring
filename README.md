@@ -8,5 +8,11 @@ AMG8833 Non-contact tempreture sensor <br />
 Raspberry Pi Camera <br /> 
 Buzzer <br /> 
 HC-SR04 <br /> 
-# Instance Result 
+# Instance result 
 ![Drawing5](https://user-images.githubusercontent.com/32155999/185734082-1ce59b0b-93b0-4a3d-a751-070ce77c366a.png)
+# How to run 
+1. run the Main_code.py in the direct of the project 
+# Descriptions of file 
+Main_code.py: The main code of the project <br />  
+mask_detector.model: The trained CNN model for face mask classification <br />  
+Slide1.png and Slide2.png: The images for guiding the user of the system <br />  
