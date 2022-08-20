@@ -9,8 +9,4 @@ Raspberry Pi Camera <br />
 Buzzer <br /> 
 HC-SR04 <br /> 
 # Instance Result 
-![alt text](https://drive.google.com/file/d/14JCR6LgY9fjhJG7esom6yjuEJNthnnwo/view?usp=sharing)
-
-
-
-
+![Drawing5](https://user-images.githubusercontent.com/32155999/185734082-1ce59b0b-93b0-4a3d-a751-070ce77c366a.png)
